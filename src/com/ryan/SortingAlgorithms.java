@@ -93,7 +93,7 @@ public class SortingAlgorithms {
 			k++;
 		}
 		
-		while(j<size1) {
+		while(j<size2) {
 			slot[k]=R[j];
 			j++;
 			k++;

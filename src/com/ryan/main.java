@@ -7,10 +7,10 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// variables
-		int size = 8;
-		int max_number = 100;
+		int size = 12345;
+		int max_number = 100000;
 		int min_number = 1;
-		int S = 3;
+		int S = 5;
 		
 		int left = 0;
 		int right = size -1;
@@ -27,7 +27,6 @@ public class main {
 		//Hybrid Sort
 		SortingAlgorithms.hybridMergeSort(test,left,right,S,comparisons);
 		System.out.println(Arrays.toString(test));
-		
 		
 		// Test if array is sorted
 		if(Tools.isAscending(test)) {
